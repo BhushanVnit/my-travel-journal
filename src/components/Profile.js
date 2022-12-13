@@ -31,13 +31,13 @@ function Profile() {
         <div className="profile-email">
           <span>
             Email :
-            <a0
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="mailto:bhushanbahale01@gmail.com"
             >
               bhushanbahale01@gmail.com
-            </a0>
+            </a>
           </span>
         </div>
         <div className="profile-social">
