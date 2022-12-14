@@ -135,27 +135,7 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 1130px) {
-  body {
-    background-color: rgba(203, 254, 236, 0.543);
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .Card_container {
-    display: flex;
-    flex-direction: column;
-    width: 89%;
-  }
-  .card-img {
-    margin: auto;
-  }
-  .Profile {
-    display: none;
-  }
-  .Nav-container {
-    width: 100%;
-  }
-}
+
 
 .profile_container {
   width: 270px;
@@ -287,4 +267,32 @@ body {
 }
 .footer span {
   color: red;
+}
+
+/* ================ Media Queries ================ */
+
+@media screen and (max-width: 1130px) {
+  body {
+    background-color: rgba(0, 0, 0, 0.071);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .App{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .Card_container {
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+  }
+  .card-img {
+    width: 100%;
+    margin: auto;
+  }
+  .Profile {
+    display: none;
+  }
+  .Nav-container {
+    border-radius: 10px;
+  }
 }
